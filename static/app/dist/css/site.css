@@ -1,0 +1,112 @@
+body {
+  font: 100% "Merriweather", serif;
+  color: #444;
+  padding-top: 50px; }
+
+.container-full {
+  height: 100vh;
+  display: table-cell;
+  width: 100vw; }
+
+.v-middle {
+  vertical-align: middle; }
+
+.section-title:first-letter {
+  text-transform: uppercase;
+  color: #c9302c; }
+
+.section-title {
+  border-bottom: 2px solid #c9302c; }
+
+.container-space {
+  padding-top: 30px;
+  margin-bottom: 30px; }
+
+.about-p {
+  font-size: 22px;
+  line-height: 1.6; }
+
+#intro {
+  background: url(/static/app/imgs/intro-bg.jpeg) no-repeat center center;
+  background-size: cover;
+  color: #fff; }
+
+#aboutme {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+#honors {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+#intro > .container {
+  padding: 30px 0; }
+
+#footer {
+  background-color: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.size-3r {
+  font-size: 3rem; }
+
+.more-arrow {
+  position: relative;
+  animation: MoveUpDown 1.5s linear infinite; }
+
+@keyframes MoveUpDown {
+  0% {
+    bottom: 0; }
+  50% {
+    bottom: 10px; }
+  100% {
+    bottom: 0; } }
+.space-bottom-2 {
+  margin-bottom: 20px; }
+
+.navbar-inverse .navbar-nav .nav-link {
+  color: #fff;
+  letter-spacing: 1px; }
+
+.socl-link {
+  font-size: 30px;
+  color: #fff; }
+
+.socl-link:hover {
+  color: #c9302c; }
+
+.typed-cursor {
+  font-size: 3.5rem;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite; }
+
+@keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #444; } }
+@-moz-keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #444; } }
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #444; } }
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #444; } }
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #444; } }
+
+/*# sourceMappingURL=site.css.map */

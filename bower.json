@@ -1,0 +1,24 @@
+{
+  "name": "sureshdsk-static",
+  "authors": [
+    "DSK <sureshdsk91@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "typed.js": "^2.0.5",
+    "components-font-awesome": "^4.7.0"
+  }
+}
