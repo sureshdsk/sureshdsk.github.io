@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.description }} {{else}} - {{ .Site.Params.author}}{{ end }}</title>
+    <meta name="author" content="{{ .Site.Params.author }}" />
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}img/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/main.css" />
+    {{- if .Params.highlight -}}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow.min.css">
+    {{ end }}
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+
+    {{ if .IsPage }}
+        <script type="application/ld+json">
+        {{if eq .Section "blog"}}
+        { 
+            "@context": "http://schema.org", 
+            "@type": "BlogPosting",
+            "headline": "{{ .Title }}",
+            "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",  
+            "url": "{{ .Permalink }}",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ .Site.BaseURL }}"
+            },
+            "datePublished": "{{ time .Date }}",
+            "description": "{{ .Description }}",
+            {{ with .Params.images }}{{ range first 1 . }}"image": "{{ . | absURL }}",{{ end }}{{ end }}
+            "author": {
+                "@type": "Person",
+                "name": "{{ .Site.Params.author }}",
+                "sameAs": [
+                    "https://twitter.com/sureshdsk",
+                      "https://blog.orangescape.com/@sureshdsk",
+                      "https://medium.com/@sureshdsk",
+                      "https://hackernoon.com/@sureshdsk"
+                ]
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Idiot Inside",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.idiotinside.com/images/idiotinside-logo.png"
+                }
+            } 
+         }
+        {{ else }}
+        { 
+          "@context": "http://schema.org", 
+          "@type": "WebSite", 
+          "url": "{{ .Permalink }}", 
+          "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ .Site.BaseURL }}"
+            },
+          "name": "{{ .Title }}",
+           "author": {
+              "@type": "Person",
+              "name": "{{ .Site.Params.author }}",
+              "sameAs": [
+                  "https://twitter.com/sureshdsk",
+                  "https://blog.orangescape.com/@sureshdsk",
+                  "https://medium.com/@sureshdsk",
+                  "https://hackernoon.com/@sureshdsk"
+              ]
+            },
+          "description": "{{ .Site.Params.home_description }}",
+          "publisher": {
+              "@type": "Organization",
+              "name": "Idiot Inside",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.idiotinside.com/images/idiotinside-logo.png"
+              }
+          } 
+        }
+        
+        {{ end }}
+        </script>
+    {{ end }}
+
+    {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL}}{{ . }}">
+    {{ end }}
+    {{ `<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->` | safeHTML }}
+
+    {{ template "_internal/google_analytics.html" . }}
+  </head>

@@ -1,0 +1,34 @@
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+theme = "mr-white"
+googleAnalytics = "UA-51190198-2"
+title = "Suresh Kumar"
+disqusShortname = "suresh-dsk"
+publishDir = "docs"
+
+[permalinks]
+  post = "/:slug"
+
+[params]
+  avatar = "sureshdsk.jpeg"
+  author = "D. Suresh Kumar"
+  author_short = "DSK"
+  description = "Fullstack Web Developer"
+  home_description = "Fullstack Web Developer Fullstack Web Developer"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "sureshdsk"
+  Email         = "dsk@idiotinside.com"
+  Twitter       = "sureshdsk"
+  LinkedIn      = "sureshdsk"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
