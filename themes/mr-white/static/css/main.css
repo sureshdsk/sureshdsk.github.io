@@ -205,6 +205,9 @@ html, body {
 div.footer{
   border-bottom: 5px solid #27A822;;
 }
+#navbar .navbar-nav > li > a{
+  font-size: 18px;
+}
 /* Set the fixed height of the footer here */
 /*.footer {
   height: 50px;
