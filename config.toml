@@ -1,10 +1,11 @@
-baseURL = "https://www.example.com"
+baseURL = "https://sureshkumar.pro"
 languageCode = "en-us"
 theme = "mr-white"
 googleAnalytics = "UA-51190198-2"
 title = "Suresh Kumar"
 disqusShortname = "suresh-dsk"
-publishDir = "docs"
+contentdir    = "content"
+publishdir    = "public"
 
 [permalinks]
   post = "/:slug"
