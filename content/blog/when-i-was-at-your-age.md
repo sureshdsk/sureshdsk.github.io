@@ -29,10 +29,11 @@ Managers say, “In those days, I was at your level, we used to work in Pentium 
 ## Why?
 People say when I was at your age advice,
 
-To inspire people
-To motivate people
-To make people feel grateful
-To help people avoid mistakes
+* To inspire people
+* To motivate people
+* To make people feel grateful
+* To help people avoid mistakes
+
 Even though most of the back stories are used to help others, sometimes they push too hard and impose thoughts on other person’s head. Do not make people’s life harder because your life was hard.
 
 Though people give us 100’s of advices, we have the right to decide whether to take it or not.
