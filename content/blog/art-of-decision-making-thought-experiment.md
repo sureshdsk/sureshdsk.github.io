@@ -3,6 +3,7 @@ title = "The Art of making decisions like a boss!"
 date = "2018-04-28T17:30:25.364Z"
 tags = ["decision making", "startup", "ideas"]
 categories = ["entrepreneurship"]
+images = ["/img/decision-making.jpeg"]
 +++
 
 
