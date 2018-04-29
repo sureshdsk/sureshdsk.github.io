@@ -109,7 +109,7 @@ html, body {
   font-size: 22px;
 }
 .panel-default h5 {
-  text-align: left;
+  /*text-align: left;*/
   line-height: 30px;
   font-size: 18px;
 }
@@ -207,6 +207,12 @@ div.footer{
 }
 #navbar .navbar-nav > li > a{
   font-size: 18px;
+}
+.text-left{
+  text-align: left;
+}
+.text-right {
+  text-align: right;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
