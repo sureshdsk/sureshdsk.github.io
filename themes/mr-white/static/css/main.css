@@ -192,6 +192,10 @@ html, body {
 .post-title{
   font-size: 30px;
 }
+.blog-title h4 .label{
+  line-height: 2;
+}
+
 .post-title a:hover{
   text-decoration: none;
 }
