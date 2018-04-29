@@ -154,7 +154,7 @@ html, body {
   color: #000;
 }
 .avatar {
-  padding-top: 5%;
+  padding-top: 10%;
 }
 .blog-post{
   padding-top: 15px;
@@ -178,6 +178,9 @@ html, body {
 }
 .blogpost p{
   margin: 0 0 20px;
+}
+.blogpost h2,.blogpost h3,.blogpost h4,.blogpost h5, .blogpost h6{
+  font-weight: bold;
 }
 .blogpost figure img{
   max-width: 100%;

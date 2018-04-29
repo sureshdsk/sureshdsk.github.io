@@ -2,7 +2,7 @@
 title = "Workaholics aren’t heroes"
 date = "2018-01-19T17:37:21.553Z"
 tags = ["work", "culture"]
-categories = ["work life balance"]
+categories = ["work life"]
 +++
 
 I was reading this book called “REWORK”, I came across the chapter called “Workaholism”. I felt very much connected to the chapter since I spent my entire career believing in the similar idea. Looks like the author has given words to inner thoughts.
