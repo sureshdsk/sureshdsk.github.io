@@ -28,7 +28,7 @@ Thought Experiment is very useful in
 
 ## How to do a thought experiment?
 
-I have an startup idea and I want to become an entrepreneur. What can I do?  Can I quit my job today and do a startup? No, That decision may cost really high. Let's use Thought Experiment to explore this idea.
+I have a startup idea and I want to become an entrepreneur. What can I do?  Can I quit my job today and build a startup? No, That decision may cost really high. Let's use Thought Experiment to explore this idea.
 
 We can have a list of questions like these,
 ``` 
@@ -48,7 +48,7 @@ Lets jump into the experiment. I am having this series of questions to validate 
 > If Yes, Can I solve it better? <br>
 > Do you have a business model that can generate revenue? <br>
 > How much money I need, to get started? <br>
-> Do I have enough fund? <br>
+> Do I have enough funds? <br>
 > If No, Is there anyone who can fund this idea? <br>
 
 After answering to all the above questions, I should have a better clarity on the idea. Having more clarity leads to better decision. 
