@@ -1,6 +1,6 @@
 +++
 title = "The Art of making decisions like a boss!"
-date = "2018-04-28T17:30:25.364Z"
+date = "2018-05-01T12:30:25.364Z"
 tags = ["decision making", "startup", "ideas"]
 categories = ["entrepreneurship"]
 images = ["/img/decision-making.jpeg"]
@@ -9,7 +9,7 @@ images = ["/img/decision-making.jpeg"]
 
 {{< figure src="/img/decision-making.jpeg" alt="Making decisions like a boss!" >}}
 
-Decision making is one of the most difficult job we do everyday. When we have a bunch of options and we are not sure where our each options may lead and do not want to make a wrong choice. How can we avoid this and make a better decision? If we can list down all possible events and its possible results, We will know the worst case scenarios and ready to face failure in a better way. In this article, we will see how we can use **Thought Experiment** to make better decision. 
+Decision making is one of the most difficult job we do everyday. When we have a bunch of options and we are not sure where our each options may lead and we do not want to make a wrong choice. How can we avoid this and make a better decision? If we can list down all possible events and its possible results, We will know the worst case scenarios and ready to face failure in a better way. In this article, we will see how we can use **Thought Experiment** to make better decision. 
 
 ## Thought Experiment
 Thought experiment is a technique used to experiment and explore a theory, an idea or a hypothesis to figure out possible consequences without doing it practically. Great thinkers, scientists and geniuses have employed the thought experiment technique to validate their brilliant ideas and hypothesis. Thought experiment technique is heavily used in reverse engineering.
