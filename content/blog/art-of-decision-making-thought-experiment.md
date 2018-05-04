@@ -30,14 +30,14 @@ Thought Experiment is very useful in
 
 You have a startup idea and you want to become an entrepreneur. What's next?  Can you quit your job today and build a startup? No, that decision may cost really high?? Let's use Thought Experiment to explore this idea.
 
-We can have a list of questions like these,
+You can create a list of questions like these,
 ``` 
 "What if <Scenario 1> happens?"
 “If <Scenario 1> happens, outcome is <Result 1>"
 “If <Scenario 1> doesn't happens, outcome is either <Result 2> or <Result x>"
 ```
 
-Let's create a series of questions to validate this idea of becoming entrepreneur. Though the questions below may not be enough to predict everything, this is good enough to illustrate the idea of a thought experiment.
+Lets jump into the experiment. I am having this series of questions to validate my idea. These questions may not be enough to predict everything, this is good enough to illustrate the idea of a thought experiment.
 
 > What if you want to become an entrepreneur? <br>
 > Do you have any product idea? <br>
