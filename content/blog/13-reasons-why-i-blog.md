@@ -11,11 +11,11 @@ images = ["/img/13-reasons-why.png"]
 ## 1. Help people through my blog
 As a developer, I am solving a lot of technical problems everyday and I love to share it with other developers around the world. Contributing something back to the developer community gives me a moment of happiness and getting a "Thank you" comment or a message from a reader is one of the most satisfying moment for a blogger. I want these moments to happen  frequently, So I spare my time to craft useful tutorials.
 
-## 2. Learn continously
+## 2. Learn continuously
 Creating an unique piece of tutorial is not an easy job. Also, It takes a lot of effort to keep up on latest trends and technologies. I try to learn a lot of things just for the purpose of creating new interesting tutorials. It is not always about creating an unique content, Sometimes solving problems in an efficient way makes a great post.
 
 ## 3. Make money
-You may think why "making money" is at number 3. By helping people and learning technology continously with blogging, Making money occured naturally as a biproduct. Using [IdiotInside.com](http://idiotinside.com) and It's [facebook page](https://www.facebook.com/idiotinside/), I was able to monetize using affiliate marketing and I've made a pretty good numbers. Eventhough I am not doing affiliate marketing nowadays, The money I've made earlier is more than enough to run my blog for decades. 
+You may think why "making money" is at number 3. By helping people and learning technology continously with blogging, Making money occured naturally as a biproduct. Using [IdiotInside.com](http://idiotinside.com) and It's [facebook page](https://www.facebook.com/idiotinside/), I was able to monetise using affiliate marketing and I've made a pretty good numbers. Eventhough I am not doing affiliate marketing nowadays, The money I've made earlier is more than enough to run my blog for decades. 
 
 ## 4. Inspire People
 By writing articles regularly and sharing those with others, I am able to inspire some people to start their own blog. This moment is the most fulfilling moment for any blogger.
