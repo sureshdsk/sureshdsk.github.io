@@ -23,4 +23,4 @@ Writing is not always about our perspectives, It is also about others. You need 
 Writing is not just about the number of words and passages that you write, You need to know what to omit and focus on the important things. Ignoring unnecessary things will let you focus on what matters to your audience the most.
 
 
-Start writing..! 
+Having a better writing skill will always pay off. Start writing...! 
