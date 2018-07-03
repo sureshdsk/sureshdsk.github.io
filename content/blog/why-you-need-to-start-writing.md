@@ -8,7 +8,7 @@ images = ["/img/why-you-to-start-writing.png"]
 
 {{< figure src="/img/why-you-to-start-writing.png" alt="content writing" >}}
 
-It doesn't matter if you're a programmer, designer, marketer or salesperson, Your writing skill will help when you chat with someone, write an email or an article. Becoming a good writer is not just about writing, It involves the following aspects,
+It doesn't matter if you're a programmer, designer, marketer or salesperson, your writing skill will help when you chat with someone, write an email or an article. Becoming a good writer is not just about writing, it involves the following aspects.
 
 ## Think clearly
 When you write an email or a blog article, You need to think about the subject matter you are writing very clearly and decide what to convey.
