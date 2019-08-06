@@ -14,7 +14,7 @@ publishdir    = "public"
   avatar = "sureshdsk.jpeg"
   author = "D. Suresh Kumar"
   author_short = "DSK"
-  description = "Fullstack Web Developer"
+  description = "Software Developer"
   home_description = "Fullstack Web Developer Fullstack Web Developer"
 
   # Custom assets can be linked with their paths relative to static/
