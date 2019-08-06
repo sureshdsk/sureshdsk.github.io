@@ -86,7 +86,7 @@ html, body {
 /* Custom page CSS */
 .container {
   width: auto;
-  max-width: 800px;
+  max-width: 768px;
   text-align: center;
 }
 .container .text-muted {
@@ -227,3 +227,7 @@ div.footer{
   padding-bottom: 15px;
   
 }*/
+
+#about h3{
+  line-height: 1.4;
+}
